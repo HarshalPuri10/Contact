@@ -1,0 +1,45 @@
+<main style="height: 92vh;width: 90%;" class="body">
+    <form class="formback" style="border-radius: 0.2cm;  width: 500px;;height :600px;position: relative;top: 20px;
+left :750px;box-shadow: 0px 0px 10px -1px rgba(20,20,20,0.4);" [formGroup]="Register_Form">
+        <div>
+            <h1 class="heading" style="font-weight: 500;">Student Register</h1>
+        </div>
+        <div class="Text starlabel">
+            <label>Student Name</label>
+        </div>
+        <input type="text" class="border" formControlName="studentName" placeholder="Student Name" />
+        <div class="Text starlabel">
+            <label>Your Phone</label>
+        </div>
+        <input type="number" class="border" formControlName="phone" placeholder="Phone">
+        <div class="Text starlabel">
+            <label>Your email</label>
+
+        </div>
+        <input type="text" class="border" formControlName="email" placeholder="Email">
+        <div class="Text starlabel">
+            <label>Your Roll no.</label>
+
+        </div>
+        <input type="text" class="border" formControlName="rollNo" placeholder="Roll no.">
+        <div class="Text starlabel">
+            <label>Password</label>
+
+        </div>
+        <input type="password" class="border" formControlName="password" placeholder="Password">
+        <p
+            style="position: relative;left: 20px;padding: 4px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Already a member <a routerLink="/login" style="color: #0D6EFD;">Login</a></p>
+        <button class="center" [disabled]="!Register_Form.valid" (click)="Register()">Register</button>
+        <div class="line1"></div>
+
+    </form>
+
+    <body>
+        <img style="position: absolute;top: 170px;left:100px;width: 500px;;;height :auto;"
+            src="http://109.106.255.69:2208/assets/image/register.png" alt="">
+
+        
+    </body>
+
+</main>

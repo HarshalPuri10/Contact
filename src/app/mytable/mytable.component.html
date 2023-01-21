@@ -1,0 +1,33 @@
+    <body>
+        <div class="loader"></div>
+        <div class="tableposition" style="overflow: auto;">
+            <table id="customers">
+                <thead>
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let c of mycontacts;let i= index">
+                        <td>{{i+1}}</td>
+                        <td>{{c.name}}</td>
+                        <td>{{c.email}}</td>
+                        <td>{{c.phone}}</td>
+                        <td>{{c.description}}</td>
+
+                        <td><button class="editbutton"(click)="callparentedit(c)">Edit </button>
+                            <button class="deletbutton"(click)="callparentdelet(c)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    
+
+

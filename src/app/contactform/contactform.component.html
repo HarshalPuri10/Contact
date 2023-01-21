@@ -1,0 +1,20 @@
+<form class="shadow">
+    
+    <div>
+        <h1 class="heading"> S2P edutech </h1>
+    </div>
+    <div style="position: absolute; right: 40px ;top: 33px;">
+        <button class="logoutposition" routerLink="/login">Logout</button>
+
+    </div>
+    <div>
+        <h1 class="adjust">Contact List</h1>
+    </div>
+
+    <div style="position: absolute ;right: 20px;top: 110px;">
+        <button class="center" routerLink="/contact/addcontact">Add Contact</button>
+    </div>
+
+  <app-mytable [mycontacts]="contacts" (action)="getaction($event)" ></app-mytable>
+  
+</form>

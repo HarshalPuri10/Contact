@@ -1,0 +1,151 @@
+.heading{
+    background-color: #0D6EFD;padding: 10px;
+    color: white;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.adjust{
+    background-color:  #0D6EFD;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    
+}
+.logoutposition{
+    
+    border-color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding:8px;
+    font-size: medium;
+    background-color: #0D6EFD;
+    color: white;
+    border-width: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.logoutposition:hover {background-color: rgb(235, 230, 236);color: black;
+                 
+}
+.logoutposition:active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0.5px #666;
+  transform: translateY(1px);
+}
+
+
+
+
+
+
+.position{ position: absolute;
+    left: -125px;;top: -68px;
+    border-color: aliceblue;
+    border-radius: 2px;
+    padding:8px;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.556);
+    color: white;
+
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px; 
+    
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0D6EFD;
+    color: white;
+    
+    
+  }
+  .tableposition{
+    box-sizing: border-box;
+    width:100% ;padding:10px; padding-bottom: 2%;
+    
+  }
+  .shadow{
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+.center{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: medium;
+    
+    border-color: aliceblue;  
+    border-width: 1.5px;
+    padding: 10px;
+    background-color: #0D6EFD;
+    cursor: pointer;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.center:hover {background-color: rgb(235, 230, 236);color: black;
+                 
+}
+.center:active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0.5px #666;
+  transform: translateY(1px);
+}
+.editbutton{
+    border-color:#FFC107 ;padding:8px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;border-width: 1px;backface-visibility: visible;margin-left: 10px;font-size: 15px;
+    color: #FFC107;background-color: transparent;
+}
+
+.editbutton:hover {background-color:#FFC107;color: black;
+    }
+.editbutton:active {
+      background-color: #FFC107;
+      color: black;
+      box-shadow: 0 0.5px #666;
+      transform: translateY(1px);
+    }
+.deletbutton{
+    border-color: #DC3545;padding:8px; margin-left: 10px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;font-size: 15px;border-width: 1px;color: #DC3545;background-color: transparent;
+
+}
+.deletbutton:hover {background-color:#DC3545;color: black;
+}
+.deletbutton:active {
+  background-color: #DC3545;
+  color: black;
+  box-shadow: 0 0.5px #666;
+  transform: translateY(1px);}
+
